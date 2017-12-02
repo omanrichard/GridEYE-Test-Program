@@ -7,7 +7,6 @@
 //
 
 #include "PGEclasses.hpp"
-#include "wiringPiI2C.hpp"
 
 #define PGE     0x68    // Panasonic GridEye Address
 #define PCR     0x00    // Power Control Register// Normal Mode Cmd: 0x00

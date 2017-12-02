@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79024B481FD2306B00F9AC77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79024B471FD2306B00F9AC77 /* main.cpp */; };
+		79024B481FD2306B00F9AC77 /* GridEYE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79024B471FD2306B00F9AC77 /* GridEYE.cpp */; };
+		79024B501FD2313400F9AC77 /* PGEclasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79024B4E1FD2313400F9AC77 /* PGEclasses.cpp */; };
+		79024B531FD2383C00F9AC77 /* wiringPiI2C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79024B511FD2383C00F9AC77 /* wiringPiI2C.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		79024B441FD2306B00F9AC77 /* GridEYE Test Program */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GridEYE Test Program"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79024B471FD2306B00F9AC77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		79024B471FD2306B00F9AC77 /* GridEYE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GridEYE.cpp; sourceTree = "<group>"; };
+		79024B4E1FD2313400F9AC77 /* PGEclasses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PGEclasses.cpp; sourceTree = "<group>"; };
+		79024B4F1FD2313400F9AC77 /* PGEclasses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PGEclasses.hpp; sourceTree = "<group>"; };
+		79024B511FD2383C00F9AC77 /* wiringPiI2C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wiringPiI2C.cpp; sourceTree = "<group>"; };
+		79024B521FD2383C00F9AC77 /* wiringPiI2C.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = wiringPiI2C.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		79024B461FD2306B00F9AC77 /* GridEYE Test Program */ = {
 			isa = PBXGroup;
 			children = (
-				79024B471FD2306B00F9AC77 /* main.cpp */,
+				79024B471FD2306B00F9AC77 /* GridEYE.cpp */,
+				79024B4E1FD2313400F9AC77 /* PGEclasses.cpp */,
+				79024B4F1FD2313400F9AC77 /* PGEclasses.hpp */,
+				79024B511FD2383C00F9AC77 /* wiringPiI2C.cpp */,
+				79024B521FD2383C00F9AC77 /* wiringPiI2C.hpp */,
 			);
 			path = "GridEYE Test Program";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79024B481FD2306B00F9AC77 /* main.cpp in Sources */,
+				79024B481FD2306B00F9AC77 /* GridEYE.cpp in Sources */,
+				79024B501FD2313400F9AC77 /* PGEclasses.cpp in Sources */,
+				79024B531FD2383C00F9AC77 /* wiringPiI2C.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
